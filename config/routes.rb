@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
 
+  root 'home#index'
+
   resources :articles
 
+  get "/" => "home#index"
 
   get 'sessions/new'
   get 'sessions/create'
