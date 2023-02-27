@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'webpacker', '~> 6.0'
+
 gem 'devise'
 
 ruby '2.6.10'
