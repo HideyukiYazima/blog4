@@ -69,3 +69,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Use Devise for authentication
 gem 'devise'
+
+gem "webpacker", "~> 5.4"
